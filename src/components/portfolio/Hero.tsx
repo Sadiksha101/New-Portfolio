@@ -1,7 +1,5 @@
 import React from "react";
 import Ticker from "./Ticker";
-import pixel from "../../assets/transparent.png"
-
 export default function Hero() {
   return (
     <section style={{
