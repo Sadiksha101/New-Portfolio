@@ -7,7 +7,7 @@ interface NavbarProps {
   scrollTo: (id: string) => void;
 }
 
-export default function Navbar({ scrollY, tick, timeStr, scrollTo }: NavbarProps) {
+export default function Navbar({ scrollY, scrollTo }: NavbarProps) {
   const navScrolled = scrollY > 60;
 
   return (
