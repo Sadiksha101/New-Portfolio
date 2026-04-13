@@ -67,18 +67,7 @@ export default function Navbar({ scrollY, tick, timeStr, scrollTo }: NavbarProps
         ))}
       </div>
 
-      {/* Clock */}
-      <div style={{
-        display: "flex", alignItems: "center",
-        paddingLeft: "2rem", gap: "0.5rem",
-        borderLeft: "2px solid #1a1a1a",
-      }}>
-        <span style={{ fontSize: "0.65rem", color: "#999", letterSpacing: "0.1em" }}>SFO</span>
-        <span style={{ fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.05em" }}>
-          {timeStr}
-          <span style={{ opacity: tick % 2 === 0 ? 1 : 0, transition: "opacity 0.1s" }}>_</span>
-        </span>
-      </div>
+   
     </nav>
   );
 }
